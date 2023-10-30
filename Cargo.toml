@@ -1,0 +1,11 @@
+[package]
+name = "cmd"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version = "4.2.4", features = ["derive"]}
+nucleus-rs = { git = "https://github.com/orbi-apps/nucleus-rs" }
+tokio = "1.28.0"
